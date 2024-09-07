@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#FFCCCB"
+    android:padding="20dp"
+    android:layout_gravity="center">
+
+    <!-- Birthday TextView -->
+    <TextView
+        android:id="@+id/birthdayMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday!"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:shadowColor="#FF69B4"
+        android:shadowRadius="5"/>
+
+    <!-- ImageView (Birthday Image like a cake or balloons) -->
+    <ImageView
+        android:id="@+id/birthdayImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/birthday_cake"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Birthday Cake"/>
+
+    <!-- Button to Show Toast Message -->
+    <Button
+        android:id="@+id/birthdayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Celebrate!"
+        android:backgroundTint="#E92C6C"
+        android:textColor="#FFFFFF"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+</LinearLayout>
